@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Nexo Web — Portfolio</title>
+  <meta name="description" content="Digital Nexo Web — startups digitales y software SaaS desarrollado desde Montevideo, Uruguay." />
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    document.documentElement.className += " js";
+  </script>
+</head>
+<body>
+
+  <!-- ═══ NAVBAR ═══ -->
+  <header class="navbar">
+    <div class="shell navbar-inner">
+      <a class="brand" href="#top" aria-label="Digital Nexo Web — inicio">
+        <span class="brand-mark">DNW</span>
+        <span class="brand-name">Digital Nexo Web</span>
+      </a>
+      <nav aria-label="Navegación principal">
+        <ul class="nav-links">
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ═══ HERO ═══ -->
+    <section class="hero" data-screen-label="Hero">
+      <span class="hero-scan" aria-hidden="true"></span>
+      <div class="shell hero-inner">
+        <span class="eyebrow reveal">Digital Nexo Web · Montevideo</span>
+        <h1 class="reveal">Construimos software que resuelve <span class="accent">problemas reales</span></h1>
+        <p class="hero-sub reveal">Startups digitales desarrolladas desde Montevideo. Productos SaaS internos, pensados para operar todos los días.</p>
+        <div class="hero-actions reveal">
+          <a class="btn btn-primary" href="#projects">
+            Ver proyectos
+            <svg class="btn-arrow" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 9h11" /><path d="M10 4.5L14.5 9 10 13.5" /></svg>
+          </a>
+          <a class="btn btn-ghost" href="#contact">Contacto</a>
+        </div>
+        <div class="hero-meta reveal">
+          <i class="pip" aria-hidden="true"></i>
+          <span>3 productos SaaS</span>
+          <i class="dot" aria-hidden="true"></i>
+          <span>Montevideo, UY</span>
+          <i class="dot" aria-hidden="true"></i>
+          <span>Back-office &amp; gestión</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ ABOUT ═══ -->
+    <section class="about" id="about" data-screen-label="Nosotros">
+      <div class="shell about-inner">
+        <span class="eyebrow reveal">Quiénes somos</span>
+        <h2 class="reveal">Un emprendimiento de desarrollo de SaaS internos</h2>
+        <p class="reveal">Digital Nexo Web diseña y opera sus propias herramientas de software. Cada producto nace de una necesidad concreta —registrar horas, cobrar cuotas, gestionar propiedades— y se construye para usarse en serio, no para mostrarse en una vitrina.</p>
+      </div>
+    </section>
+
+    <!-- ═══ PROJECTS ═══ -->
+    <section class="projects" id="projects" data-screen-label="Proyectos">
+      <div class="shell">
+        <div class="section-head reveal">
+          <span class="eyebrow">Portafolio</span>
+          <h2>Proyectos</h2>
+          <p>Tres productos SaaS desarrollados y operados internamente.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Card 1 — Control Horas -->
+          <article class="card reveal">
+            <div class="card-top">
+              <span class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="9" r="7" /><path d="M9 5v4l2.5 1.5" /></svg>
+              </span>
+              <span class="card-index">01</span>
+            </div>
+            <h3 class="card-name">Control Horas</h3>
+            <p class="card-tagline">Registro y liquidación de horas laborales</p>
+            <p class="card-desc">Aplicación web para gestión de turnos, horas nocturnas y períodos de liquidación configurables. Incluye dashboard con gráficos y vista de calendario.</p>
+            <div class="badges">
+              <span class="badge">Vanilla JS</span>
+              <span class="badge">Node.js</span>
+              <span class="badge">Supabase</span>
+              <span class="badge">Chart.js</span>
+            </div>
+            <div class="card-spacer"></div>
+            <a class="btn btn-primary btn-block" href="#">
+              Ver proyecto
+              <svg class="btn-arrow" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 9h11" /><path d="M10 4.5L14.5 9 10 13.5" /></svg>
+            </a>
+          </article>
+
+          <!-- Card 2 — Data Day -->
+          <article class="card reveal">
+            <div class="card-top">
+              <span class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="6" r="3" /><path d="M1 16c0-3.314 2.686-5 6-5s6 1.686 6 5" /><path d="M13 3c1.657 0 3 1.343 3 3s-1.343 3-3 3" /><path d="M17 16c0-2.21-1.343-4-3-4" /></svg>
+              </span>
+              <span class="card-index">02</span>
+            </div>
+            <h3 class="card-name">Data Day</h3>
+            <p class="card-tagline">Gestión de socios y cuotas para clubes y academias</p>
+            <p class="card-desc">SaaS para administración de membresías, pagos de cuotas y control de asistencia, orientado a clubes deportivos y academias.</p>
+            <div class="badges">
+              <span class="badge">SaaS</span>
+              <span class="badge">Membresías</span>
+              <span class="badge">Deportes</span>
+            </div>
+            <div class="card-spacer"></div>
+            <a class="btn btn-primary btn-block" href="#">
+              Ver proyecto
+              <svg class="btn-arrow" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 9h11" /><path d="M10 4.5L14.5 9 10 13.5" /></svg>
+            </a>
+          </article>
+
+          <!-- Card 3 — DataProp -->
+          <article class="card reveal">
+            <div class="card-top">
+              <span class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 16V5l6-3 6 3v11" /><path d="M1 16h16" /><path d="M6 16v-3h5v3" /><path d="M6 7.5h1.5M10.5 7.5H12M6 10h1.5M10.5 10H12" /></svg>
+              </span>
+              <span class="card-index">03</span>
+            </div>
+            <h3 class="card-name">DataProp</h3>
+            <p class="card-tagline">CRM inmobiliario para gestión operativa interna</p>
+            <p class="card-desc">Software interno para inmobiliarias: gestión de propiedades, clientes, contratos, agenda de visitas y alertas. No es una vitrina pública sino una herramienta de back-office.</p>
+            <div class="badges">
+              <span class="badge">SaaS</span>
+              <span class="badge">CRM</span>
+              <span class="badge">Inmobiliarias</span>
+              <span class="badge">Contratos</span>
+            </div>
+            <div class="card-spacer"></div>
+            <a class="btn btn-primary btn-block" href="#">
+              Ver proyecto
+              <svg class="btn-arrow" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 9h11" /><path d="M10 4.5L14.5 9 10 13.5" /></svg>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══ FOOTER / CONTACT ═══ -->
+  <footer class="footer" id="contact" data-screen-label="Contacto">
+    <div class="shell">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand">
+            <span class="brand-mark">DNW</span>
+            <span class="brand-name">Digital Nexo Web</span>
+          </div>
+          <p>Digital Nexo Web — Montevideo, Uruguay. Startups digitales y software SaaS construido para operar.</p>
+        </div>
+        <div class="footer-contact">
+          <span class="caps">Contacto</span>
+          <div class="contact-links">
+            <a class="contact-link" href="#" aria-label="Email">
+              <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3.5" width="14" height="11" rx="2" /><path d="M2.5 5l6.5 4.5L15.5 5" /></svg>
+            </a>
+            <a class="contact-link" href="#" aria-label="LinkedIn">
+              <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="14" height="14" rx="2" /><path d="M5 7.5v5" /><path d="M5 5.2v.01" /><path d="M8.5 12.5v-5" /><path d="M8.5 9.2c0-1 .8-1.7 1.8-1.7s1.7.7 1.7 1.9v3.1" /></svg>
+            </a>
+            <a class="contact-link" href="#" aria-label="GitHub">
+              <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 14.5c-3 1-3-1.5-4-2m8 4v-2.5c0-.8-.2-1.3-.6-1.7 2-.2 4-1 4-4.3a3.3 3.3 0 00-.9-2.3 3 3 0 00-.1-2.3s-.7-.2-2.4.9a8.2 8.2 0 00-4 0C4.7 2.4 4 2.6 4 2.6a3 3 0 00-.1 2.3A3.3 3.3 0 003 7.2c0 3.3 2 4.1 4 4.3-.3.3-.5.7-.5 1.4V16" /></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> Digital Nexo Web</span>
+        <span>Montevideo · Uruguay</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    (function () {
+      var items = Array.prototype.slice.call(document.querySelectorAll(".reveal"));
+      var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      function show(el) { el.classList.add("is-visible"); }
+
+      if (reduce || !("IntersectionObserver" in window)) {
+        items.forEach(show);
+        return;
+      }
+
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { show(e.target); io.unobserve(e.target); }
+        });
+      }, { threshold: 0.12, rootMargin: "0px 0px -8% 0px" });
+      items.forEach(function (el) { io.observe(el); });
+
+      setTimeout(function () {
+        items.forEach(show);
+        document.documentElement.classList.remove("js");
+      }, 1200);
+    })();
+  </script>
+</body>
+</html>
