@@ -514,9 +514,44 @@ button { font: inherit; }
   color: var(--text-faint);
   margin-bottom: 4px;
 }
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  border: 1px solid var(--line-2);
+  color: var(--text-dim);
+  transition: background var(--dur) ease, color var(--dur) ease, border-color var(--dur) ease;
+}
+.contact-item:hover {
+  background: var(--accent-dim);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.contact-item-icon {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  display: grid;
+  place-items: center;
+}
+.contact-item-icon svg { width: 16px; height: 16px; }
+.contact-item-text {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: -0.01em;
+}
 .contact-links {
   display: flex;
   gap: 10px;
+  margin-top: 4px;
 }
 .contact-link {
   width: 38px;
