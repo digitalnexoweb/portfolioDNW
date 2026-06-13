@@ -474,6 +474,7 @@ button { font: inherit; }
 }
 .btn-ghost:hover { background: var(--surface-2); color: var(--text); }
 .btn-block { width: 100%; }
+.btn-soon { opacity: 0.45; cursor: not-allowed; pointer-events: none; }
 .btn svg { width: 16px; height: 16px; }
 .btn-primary:hover .btn-arrow { transform: translateX(2px); }
 .btn-arrow { transition: transform var(--dur) ease; }
