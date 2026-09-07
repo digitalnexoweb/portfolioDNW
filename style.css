@@ -628,6 +628,7 @@ html.js .reveal:not(.is-visible) {
 .projects-grid .card.reveal.is-visible { transition-delay: 0ms; }
 .projects-grid .card:nth-child(2).reveal { transition-delay: 90ms; }
 .projects-grid .card:nth-child(3).reveal { transition-delay: 180ms; }
+.projects-grid .card:nth-child(4).reveal { transition-delay: 270ms; }
 
 /* ═══════════════════════════════════════════════════════
    Reduced-motion — disable smooth scroll, ambient loops + transitions */
